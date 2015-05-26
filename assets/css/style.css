@@ -1,0 +1,129 @@
+﻿
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+    padding-top: 80px;
+    padding-bottom: 120px;
+}
+
+.head-set {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.pad-bottom {
+    padding-bottom: 60px;
+}
+/*================================
+    NAVBAR STYLES
+==================================*/
+.navbar-default {
+    background-color: rgb(222, 228, 229);
+    border-color: transparent;
+    color: #fff;
+}
+
+    .navbar-default .navbar-nav > li > a {
+        color: black;
+    }
+	.navbar-default .navbar-nav > li > a:hover {
+        color: red;
+    }
+
+.navbar-brand {
+    padding: 0px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color:#fff;
+}
+/*================================
+    HOME SECTION STYLES
+==================================*/
+
+/*STYLE OF BACKGROUND IMAGE*/
+#home {
+	position:relative;
+    background: url(../img/signup2.jpg) no-repeat center center; /*Full Witdth background image*/
+    padding: 0;
+	opacity:1;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -moz-background-size: cover;
+    min-height: 900px;
+}
+    /*STYLE FOR OVERLAY */
+    #home .overlay {
+        padding-top: 90px;
+        /*.75 opacity of the color so that background image is visible*/
+        min-height: 700px;
+        color: #fff;
+    }
+
+    #home h1 {
+        padding-top: 80px;
+        font-weight: 900;
+        font-size: 100px;
+        font-family: 'Browallia New';
+    }
+
+#signup {
+	position:relative;
+    background: url(../img/home2.png) no-repeat center center; /*Full Witdth background image*/
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -moz-background-size: cover;
+    min-height: 900px;
+}
+/*================================
+    contact SECTION STYLES
+==================================*/
+#contact {
+    color: #fff;
+    text-align: center;
+}
+
+    #contact .overlay {
+        background-color: rgba(0, 0, 0, 0.85);
+        min-height: 300px;
+        color: #fff;
+    }
+
+    #contact h1 {
+        padding-top: 80px;
+        font-size: 50px;
+        font-weight: 900;
+        padding-bottom: 30px;
+    }
+.signup input{
+	width:100%;
+	height:50px;
+	margin:1% auto;
+	padding:1% 1%;
+	font-size:1.3em;
+	border-radius:5px;
+	border:1px solid #2ecc71;
+}
+.radio input{
+
+	width:70%;
+	height:15px;
+}
+
+footer {
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 900;
+    background-color: rgb(222, 228, 229);
+    border-color: transparent;
+    color: #000;
+}
+
+    footer a, footer a:hover {
+        color:red;
+        text-decoration: none;
+    }
